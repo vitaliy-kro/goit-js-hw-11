@@ -43,9 +43,6 @@ refs.form.addEventListener('submit', async e => {
 function clearGallery() {
   refs.gallery.innerHTML = '';
 }
-// function areInputEmpty(e) {
-//   return e.target.elements.searchQuery.value.trim();
-// }
 async function infScrollOptions() {
   try {
     const fetch = await loadMorePages(
